@@ -1,16 +1,18 @@
 {
   "name": "express-app",
   "version": "1.0.0",
-
   "dependencies": {
-    "klass":  "1.x.x",
-    "underscore": "1.x.x",
-    "vows": "0.x.x",
+    "amqp": "^0.2.4",
+    "async": "^1.0.0",
     "cluster": "0.x.x",
+    "ejs": "0.x.x",
     "express": "2.x.x",
-    "ejs": "0.x.x"
+    "klass": "1.x.x",
+    "pkgcloud": "^1.2.0-alpha.0",
+    "underscore": "1.x.x",
+    "vows": "0.x.x"
   },
-  "scripts" :{
-    "start" : "node app.js"
+  "scripts": {
+    "start": "node app.js"
   }
 }
