@@ -6,7 +6,7 @@ var AppRes = module.exports = BaseRes.extend({
     app.get('/servers/:serverId', _.bind(this.getDatabases, this));
   },
 
-  all: function (req, res) {
-    res.render('app/index');
+  getDatabases: function (req, res) {
+    res.render('app/servers');
   }
 });
