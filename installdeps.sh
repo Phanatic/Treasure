@@ -1,4 +1,4 @@
 #!/bin/sh
 #
-cd ./web
+cd ./Web
 npm install
